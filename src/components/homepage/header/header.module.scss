@@ -119,6 +119,10 @@
                             transition: all 0.3s ease 0s;
                             display: block;
                             position: relative;
+
+                            &:hover {
+                                color: #309255;
+                            }
                         }
                     }
                 }
@@ -159,6 +163,9 @@
                     -webkit-transition: all 0.3s ease 0s;
                     transition: all 0.3s ease 0s;
                     margin-right: 24px;
+                    &:hover {
+                        color: #309255;
+                    }
                 }
             }
         }
