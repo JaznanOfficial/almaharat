@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.al__container {
-    @apply container px-6 lg:px-[40px];
-}
+ .al__container {
+    @apply px-4 xl:px-0 sm:max-w-[992px] lg:max-w-[1200px];
+
+
+ }

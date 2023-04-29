@@ -1,0 +1,30 @@
+/* google font montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* flat icon cdn */
+
+
+.nav-menu {
+    .active {
+        color: #309255 !important;
+
+        &::before {
+            position: absolute;
+            content: "";
+            background-image: url('/img/nav-active-shape.webp');
+            width: 70px;
+            height: 5px;
+            background-position: center center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            bottom: -15px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+    }
+
+
+
+}
+
+

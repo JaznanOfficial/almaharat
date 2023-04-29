@@ -1,6 +1,6 @@
 .headerSection {}
 
-
+// top header 
 .headerTop {
     .headerTopWrapper {
         .headerTopLeft {
@@ -82,7 +82,98 @@
     }
 }
 
+
+
+
+
+// main header
+
+.mainHeader {
+    .mainHeaderWrapper {
+        border: 1px solid rgba(48, 146, 85, 0.25);
+        padding: 16px 15px;
+        border-radius: 15px;
+        -webkit-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+
+        nav {
+            .navLeft {
+                .navLogo {
+                    img {}
+                }
+            }
+
+            .navMiddle {
+                ul {
+                    li {
+                        position: relative;
+                        padding: 16px 25px;
+
+
+                        a {
+                            // font-size: 18px;
+                            font-weight: 500;
+                            text-transform: capitalize;
+                            color: #212832;
+                            -webkit-transition: all 0.3s ease 0s;
+                            transition: all 0.3s ease 0s;
+                            display: block;
+                            position: relative;
+                        }
+                    }
+                }
+
+            }
+
+            .navRight {
+
+                a {
+                    // font-size: 18px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    color: #212832;
+                    -webkit-transition: all 0.3s ease 0s;
+                    transition: all 0.3s ease 0s;
+                    position: relative;
+                }
+
+                .navRightButton {
+                    height: 60px;
+                    line-height: 56px;
+                    padding: 0 35px;
+                    border: 1px solid #309255;
+                    border-radius: 10px;
+                    background-color: #fff;
+
+                    &:hover {
+                        background-color: #309255;
+                        color: #fff;
+                    }
+                }
+
+                .navRightLink {
+                    font-size: 18px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    color: #212832;
+                    -webkit-transition: all 0.3s ease 0s;
+                    transition: all 0.3s ease 0s;
+                    margin-right: 24px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// responsive code
+
 @media screen and (max-width: 1280px) {
+
     .headerTopMiddle {
         padding-top: 10px;
         position: relative;

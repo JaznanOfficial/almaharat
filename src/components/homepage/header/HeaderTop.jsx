@@ -7,7 +7,7 @@ import skype from "../../../assets/icon/skype.png"
 import twitter from "../../../assets/icon/twitter.png"
 const HeaderTop = () => {
     return (
-        <div className={`${style.headerTop} font-Montserrat hidden lg:block  bg-dark pb-1.5`}>
+        <section className={`${style.headerTop} font-Montserrat hidden lg:block  bg-dark pb-1.5`}>
             <div className="al__container mx-auto  text-white">
                 <div className={`${style.headerTopWrapper} flex  items-center justify-between`}>
                     <div className={`${style.headerTopLeft}`}>
@@ -54,7 +54,7 @@ const HeaderTop = () => {
 
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
