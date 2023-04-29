@@ -28,3 +28,27 @@
 }
 
 
+.fixed-nav {
+    background-color: white !important;
+    padding-top: 0px !important;
+    position: fixed !important;
+    top: -320px;
+    left: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    // transform: translateY(320px);
+    // transition: transform 600ms;
+    animation: navBar 700ms ease-in-out forwards;
+
+    .main-haader-wrapper {
+        border: none !important;
+    }
+}
+
+@keyframes navBar {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(320px);
+    }
+}

@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <Homepage />
+      <main className='h-[3000px]'></main>
     </>
   )
 }
