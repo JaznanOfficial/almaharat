@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import style from "./header.module.scss"
 import { NavLink } from 'react-router-dom'
 import logo from "../../../assets/img/logo.webp"
