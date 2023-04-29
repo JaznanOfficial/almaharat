@@ -2,5 +2,100 @@
 
 
 .headerTop {
-    
+    .headerTopWrapper {
+        .headerTopLeft {
+            p {
+                font-size: 15px;
+                color: #fff;
+                font-weight: 400;
+                margin-bottom: 0;
+                line-height: 1.4;
+
+
+
+                a {
+                    color: #309255;
+                    display: inline-block;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .headerTopMiddle {
+            padding-top: 10px;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                content: "";
+                width: 41px;
+                height: 14px;
+                background: url("/img/shape-1.webp");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -110px;
+                z-index: 999;
+            }
+
+            &::after {
+                position: absolute;
+                content: "";
+                width: 41px;
+                height: 14px;
+                background-image: url('/img/shape-2.webp');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                right: -110px;
+            }
+
+            .headerTopInfo {
+                p {
+                    font-size: 15px;
+                    color: #fff;
+                    font-weight: 400;
+                    margin-bottom: 0;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-align: start;
+                    -ms-flex-align: start;
+                    align-items: flex-start;
+                    line-height: 1.4;
+
+                    i {
+                        color: #309255;
+                        font-size: 20px;
+                        padding-right: 15px;
+                    }
+                }
+            }
+        }
+
+        .headerTopRight {}
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .headerTopMiddle {
+        padding-top: 10px;
+        position: relative;
+
+        &::before {
+            left: -50px !important;
+        }
+
+        &::after {
+            right: -50px !important;
+        }
+
+
+    }
+
 }
