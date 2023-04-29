@@ -7,15 +7,15 @@ const MainHeader = () => {
 
     const [fixedNavStatus, setFixedNavStatus] = useState(false)
 
-    window.addEventListener("scroll",()=>{
-        if(window.scrollY > 170){
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 170) {
             setFixedNavStatus(true)
-        }else{
+        } else {
             setFixedNavStatus(false)
         }
     })
     return (
-        <section className={`${style.mainHeader} w-full pt-7 ${fixedNavStatus ? 'fixed-nav' : ''} lg:pt-8 font-Montserrat`}>
+        <section className={`${style.mainHeader} w-full duration-300  ${fixedNavStatus ? 'fixed-nav' : ''} pt-7 lg:pt-8  font-Montserrat`}>
             <div className="al__container mx-auto">
                 <div className={`${style.mainHeaderWrapper} main-haader-wrapper`}>
                     <nav className=' flex items-center justify-between'>
