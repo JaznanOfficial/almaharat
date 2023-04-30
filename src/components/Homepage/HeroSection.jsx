@@ -1,13 +1,11 @@
-import { Button } from "../../StylesComponent/Button"
+import { Button } from "../../StylesComponent/Button";
 
 const HeroSection = () => {
-  return (
-      <div>
-          
-          <Button>start a course</Button>
-      
-      </div>
-  )
-}
+    return (
+        <>
+            <Button>start a course</Button>
+        </>
+    );
+};
 
-export default HeroSection
+export default HeroSection;

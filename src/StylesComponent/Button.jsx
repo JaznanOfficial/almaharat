@@ -9,13 +9,17 @@ export const Button = styled.button`
     font-weight: 500;
     font-family: inherit;
     background-color: #309255;
+    background: linear-gradient(to left, #309255 50%, #81f7ae 50%) right;
+    background-size: 200% 100%;
     color: white;
     cursor: pointer;
     text-transform: capitalize;
     transition: all 0.3s ease;
 
     &:hover {
-        background-color: #68686d;
+        background-position: left;
+        transition: all 2s ease;
+        color: #859494;
     }
     &:focus {
         color: #1d2733;
