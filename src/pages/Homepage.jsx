@@ -1,7 +1,6 @@
 // import React from 'react';
-
+import Header from "../components/Homepage/Header/Header";
 import HeroSection from "../components/Homepage/HeroSection/HeroSection";
-import Header from "../components/homepage/header/Header";
 
 const Homepage = () => {
     return (
