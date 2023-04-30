@@ -25,3 +25,4 @@ export const Button = styled.button`
         color: #1d2733;
     } */
 `;
+
